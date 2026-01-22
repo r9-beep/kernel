@@ -2,4 +2,8 @@ rem dos=high
 rem device=fdxms.sys (or himem.sys)
 files=20
 buffers=20
+lastdrive=Z
 rem screen=0x12
+rem CD-ROM driver examples (provide the driver binaries if you want CD access)
+rem devicehigh=\bin\oakcdrom.sys /D:FDCD0001
+rem devicehigh=\bin\udvd2.sys /D:FDCD0001
